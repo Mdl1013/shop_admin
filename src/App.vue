@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    VUE  项目
+    <router-view></router-view>
   </div>
 </template>
 
@@ -11,5 +11,8 @@ export default {
 </script>
 
 <style>
-
+ #app {
+   height: 100%;
+  
+}
 </style>
